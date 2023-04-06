@@ -14,7 +14,7 @@ function Login() {
 
   // login
   function login() {
-    fetch("/login", {
+    fetch("https://crowd-app.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
