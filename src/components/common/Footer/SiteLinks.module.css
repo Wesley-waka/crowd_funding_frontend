@@ -1,0 +1,27 @@
+.linksList{
+    display: flex;
+    flex-wrap: wrap;/*breaks flex items into multiple lines*/
+    justify-content: space-between;
+    margin: 0px 0px 15px;
+    padding: 0;
+}
+
+.linksList li{
+    list-style: none;
+}
+
+/* spliting the list into four columns three rows */
+.siteLink{
+    flex-basis: 25%;
+}
+
+.siteLink a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.siteLink a:hover{
+    text-decoration: underline;
+    color:#a4adb6;
+}

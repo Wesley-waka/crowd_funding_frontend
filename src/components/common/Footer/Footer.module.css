@@ -1,0 +1,14 @@
+footer{
+    color:  #6c757d;
+    font-size: 13px;
+    background-color: rgb(26, 24, 24);
+    /* max-width: 980px; */
+   padding-left: 30px;
+   padding-top: 20px;
+   font-family: "Fredoka", sans-serif;
+}
+
+.service{
+    margin: 0px 0px 20px;
+}
+

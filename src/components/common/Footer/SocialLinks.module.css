@@ -1,0 +1,15 @@
+.socials{
+    color: rgb(238, 233, 233);
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.socials i{
+    margin-right: 20px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}

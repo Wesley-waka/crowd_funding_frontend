@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap");
+
+:root {
+--primaryFont: "Fredoka", sans-serif;
+--backgroundColor: white;
+--primaryColor: gold;
+}
+
+body {
+background: var(--backgroundColor);
+}
+
+.card {
+background-color: var(--backgroundColor);
+border-radius: 30px;
+text-align: center;
+max-width: 360px;
+margin: 8px auto;
+box-shadow: 20px 20px 20px darken(var(--backgroundColor), 2%),
+-20px -20px 20px lighten(var(--backgroundColor), 2%);
+
+}
+
+.illustration {
+  width: 100%;
+  max-width: 375px;
+}
+.illustration img {
+  width: 359px;
+  object-fit: cover;
+  height: 260px; 
+  border-radius: 20px;
+}
+
+button {
+margin: auto;
+margin-bottom: 10px;
+}
+
+.card .illustration lottie-player {
+width: 200px;
+height: 200px;
+border-radius: 100%;
+overflow: hidden;
+margin: 0 auto;
+box-shadow: 20px 20px 20px darken(var(--backgroundColor), 2%),
+-20px -20px 20px lighten(var(--backgroundColor), 2%);
+}
+
+.card h3 {
+font-family: var(--primaryFont);
+font-size: 2rem;
+line-height: 2.2rem;
+color: darken(var(--backgroundColor), 50%);
+font-weight: bold;
+margin-top: 12px;
+}
+
+.card p {
+font-family: var(--primaryFont);
+font-size: 1rem;
+line-height: 1.3rem;
+color: darken(var(--backgroundColor), 50%);
+margin: 30px;
+max-width: 80%;
+}
+
+.card button {
+font-family: var(--primaryFont);
+font-size: 1.1rem;
+font-weight: bold;
+padding: 15px 80px;
+border-radius: 25px;
+color: white;
+border: 0;
+outline: none;
+background-color: var(--primaryColor);
+box-shadow: 10px 10px 10px darken(rgba(red(var(--primaryColor)), green(var(--primaryColor)), blue(var(--primaryColor)), 0.2), 2%),
+-10px -10px 10px lighten(rgba(red(var(--primaryColor)), green(var(--primaryColor)), blue(var(--primaryColor)), 0.2), 2%);
+transition: ease all 0.3s;
+cursor: pointer;
+}
+
+.card button:hover {
+box-shadow: 20px 20px 20px darken(rgba(red(var(--primaryColor)), green(var(--primaryColor)), blue(var(--primaryColor)), 0.1), 2%),
+-20px -20px 20px lighten(rgba(red(var(--primaryColor)), green(var(--primaryColor)), blue(var(--primaryColor)), 0.1), 2%);
+transform: translateY(-3px);
+}
+
+.card button:active {
+transform: scale(0.9);
+box-shadow: inset -1px -1px 3px darken(rgba(red(var(--primaryColor)), green(var(--primaryColor)), blue(var(--primaryColor)), 0.3), 2%),
+-20px -20px 20px lighten(rgba(red(var(--primaryColor)), green(var(--primaryColor)), blue(var(--primaryColor)), 0), 2%);
+}

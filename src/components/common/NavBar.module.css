@@ -1,0 +1,72 @@
+.nav{
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    position: fixed;
+    margin: 0;
+    top:0;
+    right:0;
+    left:0;
+    width: 100%;
+    z-index: 999; /*this ensures no object comes above the navbar*/
+    background: linear-gradient(
+        to top,
+        transparent 0%, rgba(0,0,0,0.3)50%
+    );
+
+    /*Animation*/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.nav_black{
+    background-color:rgb(20, 20, 20);
+}
+
+.mainNav{
+    display: flex;
+    align-items: center;
+}
+
+.navItems{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: rgb(229, 229, 229);
+    padding: 0;
+    margin: 0;
+}
+
+.navItems li{
+   margin-left: 18px;
+   font-size: 15px;
+}
+
+.logo{
+    max-width: 92px;
+    height: fit-content;
+
+}
+
+.Link{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+.Link:hover{
+    color: rgb(148, 144, 144);
+}
+
+.home_button{
+    margin-right: 30px;
+    background-color: gold;
+    border-radius: 7px;
+    border: none;
+    justify-content: space-between;
+    padding: 0.2rem 2rem;
+    font-size:13px;  
+}
